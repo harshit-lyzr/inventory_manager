@@ -124,6 +124,7 @@ regex==2024.4.28
 requests==2.31.0
 requests-oauthlib==2.0.0
 rich==13.7.1
+pysqlite3-binary
 rpds-py==0.18.0
 rsa==4.9
 shellingham==1.5.4
