@@ -1,0 +1,3 @@
+lyzr
+streamlit
+python-dotenv
