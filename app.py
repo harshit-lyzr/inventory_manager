@@ -1,13 +1,13 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import os
 from lyzr import DataAnalyzr
 from dotenv import load_dotenv
 import streamlit as st
 from utils import save_uploaded_file
 from PIL import Image
-
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 load_dotenv()
 api = os.getenv('OPENAI_API_KEY')
